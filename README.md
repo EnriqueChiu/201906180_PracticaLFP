@@ -1,6 +1,6 @@
 # 201906180_PracticaLFP
 
-##Manual de Usuario
+## Manual de Usuario
 <p align="justify">
 SiempleQL es un lenguaje de consulta que funciona a través de comando que se va a indicar a continuación. 
 
@@ -11,7 +11,7 @@ Los comando es case insensitive lo que significa que no importa si lo escribe en
 ***
 ***
 
-###Comando CARGAR:
+### Comando CARGAR:
 Como su nombre indica se usa el comando para cargar los archivo en ese caso de extensión .json lo cual el archivo debe está en el mismo carpeta que el SimpleQL. 
 
 Para cargar los archivos la estructura seria la siguiente:
@@ -23,7 +23,7 @@ Puede cargar una cantidad N de archivo y después de escribir el nombre de cada 
 ***
 ***
 
-###Comando SELECCIONAR:
+### Comando SELECCIONAR:
 Puede seleccionar uno o mas registro o atributos de los mismos puede tener condición simples.
 
 Para seleccionar todos los registros de los archivos cargados seria asi:
@@ -44,7 +44,7 @@ Puede seleccionar los atributos que está en los registros, nunca podrá mostra 
 ***
 ***
 
-###Comando MAXIMO:
+### Comando MAXIMO:
 Comando que encuentra el máximo de un atributo de todos los registros que se cargó previamente.
 ~~~
 MAXIMO edad
@@ -56,7 +56,7 @@ Este comando solo aplica para los atributos edad y promedio, nunca podrás encon
 ***
 ***
 
-###Comando MINIMO:
+### Comando MINIMO:
 Comando que encuentra el mínimo de un atributo de todos los registros que se cargó previamente.
 
 >MINIMO edad
@@ -68,7 +68,7 @@ Este comando solo aplica para los atributos edad y promedio, nunca podrás encon
 ***
 ***
 
-###Comando SUMA:
+### Comando SUMA:
 Comando que suma el atributo especificado de todos los registros que se cargó previamente.
 ~~~
 SUMA edad
@@ -80,7 +80,7 @@ Este comando solo aplica para los atributos edad y promedio, nunca podrás sumar
 ***
 ***
 
-###Comando CUENTA:
+### Comando CUENTA:
 Comando que permite contar el número de registro que se cargó a la memoria.
 
 Su estructura seria la siguiente:
@@ -90,7 +90,7 @@ CUENTA
 ***
 ***
 
-###Comando REPORTAR:
+### Comando REPORTAR:
 Este comando permite crear un reporte en HTML de una cantidad N de registros.
 
 Su estructura seria la siguiente:
